@@ -47,12 +47,28 @@
         <h3> Zegar Cyfrowy</h3>
         <u> Autorzy: </u> Alicja Szymańska, Mateusz Nawrot<br>
         <img src="obrazy/zegar.jpg" width="500" > <br>
-        W projekcie wykorzystano Arduino Pro mini i 128 diod RGB na taśmie. Posiada 8 kolorów, które zmieniają się co 10 sekund, a na koniec sekwencji zmian jednolitych kolorów, diody świecą w kolorach tęczy.
+        W projekcie wykorzystano Arduino Pro mini i 128 diod RGB na taśmie. Posiada 8 kolorów, które zmieniają się co 10 sekund, 
+        a na koniec sekwencji zmian jednolitych kolorów, diody świecą w kolorach tęczy.
                   <br>
         <h3> Zdalnie sterowana deskorolka</h3>
         <u> Autor: </u> Wojciech Cieślak<br> 
-        W trakcie realizacji.... 
-        
+        Projekt deskorolki elektrycznej powstał z pasji do pojazdów elektronicznych. W projekcie wykorzystano:
+        <ul>
+            <li>sterownik silników BLDC oparty na oprogramowaniu opensource,</li>
+            <li>esp32, które służy do komunikacji między smartfonem a deskorolką,</li>
+            <li>taśmę led do podświetlenia deski w nocy,</li>
+            <li>silnik BLDC, którego sprawność jest większa niż tradycyjnego silnika,</li>
+            <li>pilot do sterowania deski(komunikacji radiowej między sterownikiem, a użytkownikiem).</li>
+        </ul> <br>
+        <img src="obrazy/deska1.jpg" width="500" ><img src="obrazy/deska2.jpg" width="500" > <br>
+
+        <p> Powstała aplikacja na android, która kontroluje parametry deski np. stan baterii, temperatura itp.. 
+            Aplikacja komunikuje się z ESP32 za pomocą Bluetooth. ESP32 odbiera ramkę danych ze sterownika i wysyła informacje 
+            zwrotną do smartphone(użytkownika). W trakcje realizacji jest rozszerzenie możliwości aplikacji o sterowanie deską 
+            za pomocą smatphone.
+        </p>
+        <img src="obrazy/Dapp1.jpg" width="500" ><img src="obrazy/Dapp2.jpg" width="500" ><img src="obrazy/Dapp3.jpg" width="500" > <br>
+
     </div>
     <div id="footer">
         <p>Copyright &copy; A.Szewczyk</p>
