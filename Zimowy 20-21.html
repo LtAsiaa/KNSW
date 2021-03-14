@@ -1,0 +1,93 @@
+<!DOCTYPE HTML> 
+<html lang="pl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KNSW</title>
+
+ <link rel="stylesheet" type="text/css" href="style1.css" />
+ 
+</head>
+
+<body>
+
+    <div id="wrapper">
+        &nbsp; <img src="obrazy/logo knsw2.png" width="80" width="80" >
+        <div id="logo">
+      
+            <a href="index.html">
+                 <h1>Koło Naukowe Systemów Wbudowanych </h1>
+            </a>
+        </div>
+    
+
+    <div id="header"></div>
+
+    <div id="naglowek"><a href="index.html"><p></p></a></div>
+	
+	<div class="kolumna_boczna lewa">
+					
+		<!-- Przycisk "domowy" -->
+        <a href="index.html" class="button">Strona Główna</a><br>
+		
+        
+        <nav><a href="projekty.html" class="button">Nasze projekty</a><br>
+           
+               
+            <ol><a href="" class="button2">Semestr Zimowy 2020/21 </a></ol> 
+            <ol><a href="" class="button2">Semestr Letni 2020/21 </a></ol> 
+            
+            
+        </nav>    
+				 	
+        <a href="materialy.html" class="button">Materiały</a><br>
+
+        <a href="sklad.html" class="button">Członkowie</a><br>
+		                                                  
+        <a href="kontakt.html" class="button">Kontakt</a>	<br>	
+	</div>
+	
+
+<div class="kolumna_srodkowa">
+	
+	<div class="panel_tresc">
+        <p class="naglowek_srodkowy">Nasze projekty</p>
+        <h1> Zimowy 2020/21</h1>
+        <h3> Zegar Cyfrowy</h3>
+        <u> Autorzy: </u> Alicja Szymańska, Mateusz Nawrot<br>
+        <img src="obrazy/zegar.jpg" width="500" > <br>
+        Zegar oparty jest na miktrokontrolerze Arduino Pro Mini oraz zegarze czasu rzeczywistego RTC DS1307.
+        W projekcie 128 diod RGB na taśmie. Posiada 8 kolorów, które zmieniają się co 10 sekund, 
+        a na koniec sekwencji zmian jednolitych kolorów, diody świecą w kolorach tęczy. Komunikacja odbywa się poprzez magistralę I2C.
+        Planowane jest dodanie trybu oszczedzania energii, przycisków odpowiedzialnych za zmiane intensywności świecenia oraz
+        czujnika ruchu, który zmieniałby tryb świecenia.
+                  <br><br><br>
+        <h3> Zdalnie sterowana deskorolka</h3>
+        <u> Autor: </u> Wojciech Cieślak<br> 
+        Projekt deskorolki elektrycznej powstał z pasji do pojazdów elektronicznych. <br>W projekcie wykorzystano:
+        <ul>
+            <li>sterownik silników BLDC oparty na stm32 z wykorzystaniem oprogramowania opensource</li>
+            <li>esp32, które służy do komunikacji między smartfonem a deskorolką,</li>
+            <li>taśmę led do podświetlenia deski w nocy,</li>
+            <li>silnik BLDC, którego sprawność jest większa niż tradycyjnego silnika,</li>
+            <li>pilot do sterowania deski(komunikacji radiowej między sterownikiem, a użytkownikiem).</li>
+        </ul> <br>
+        <img src="obrazy/deska1.jpg" height="475" width="320"> &nbsp;<img src="obrazy/deska2.jpg" height="475" width="320"> <br>
+
+        <p> Powstała aplikacja na android, która kontroluje parametry deski np. stan baterii, temperatura itp.. 
+            Aplikacja komunikuje się z ESP32 za pomocą Bluetooth. ESP32 odbiera ramkę danych ze sterownika i wysyła informacje 
+            zwrotną do smartphone(użytkownika). W trakcje realizacji jest rozszerzenie możliwości aplikacji o sterowanie deską 
+            za pomocą smatphone.
+        </p>
+        <img src="obrazy/Dapp1.jpg" height="450" width="225">  
+        <img src="obrazy/Dapp2.jpg" height="450" width="225"> 
+        <img src="obrazy/Dapp3.jpg" height="450" width="225">  <br>
+
+    
+    </div>
+    <div id="footer">
+        <p>Copyright &copy; A.Szewczyk</p>
+    </div>			
+</div>
+</div>            
+</body>
+</html>

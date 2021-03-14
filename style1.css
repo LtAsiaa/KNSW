@@ -222,14 +222,47 @@ h2 {
 	text-decoration:none;
     text-shadow:6px 3px 2px #205285;
     margin-top: 10px;
+
+
 }
 .button:hover {
 	background:linear-gradient(to bottom, #9bccfa 5%, #4481a6 100%);
 	background-color:#9bccfa;
+	
 }
 .button:active {
 	position:relative;
 	top:1px;
+}
+
+.button2 {
+	box-shadow:inset 2px 4px 4px 0px #c4e2f5;
+	background:linear-gradient(to bottom, #4481a6 5%, #9bccfa 100%);
+	background-color:#4481a6;
+	border-radius:42px;
+	border:1px solid #294161;
+	display:inline-block;
+	cursor:pointer;
+	color:#0a0a0a;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:8px 20px;
+	text-decoration:none;
+    text-shadow:6px 3px 2px #205285;
+    margin-top: 1px;
+
+
+}
+.button2:hover {
+	background:linear-gradient(to bottom, #9bccfa 5%, #4481a6 100%);
+	background-color:#9bccfa;
+	
+}
+.button2:active {
+	position:relative;
+	top:1px;
+
 }
 .kolumna_boczna {
     width: 200px;
